@@ -1,0 +1,1 @@
+docker exec -i broker /usr/bin/kafka-console-consumer --bootstrap-server broker:9092 --topic testing.dbo.Inventory -from-beginning

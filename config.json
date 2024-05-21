@@ -1,0 +1,12 @@
+{
+    "connector.class": "io.debezium.connector.sqlserver.SqlServerConnector",
+    "database.hostname": "DB:HOSTNAME",
+    "database.port": "1433",
+    "database.user": "sa",
+    "database.password": "password123!",
+    "database.dbname": "TESTDB",
+    "database.server.name": "testing",
+    "table.whitelist": "dbo.Inventory",
+    "database.history.kafka.bootstrap.servers": "broker:9092",
+    "database.history.kafka.topic": "dbhistory.TESTDB"
+}
